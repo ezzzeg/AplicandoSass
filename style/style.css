@@ -39,6 +39,10 @@ body{
     display: flex;
     margin-right: 40px;
     list-style: none;
+    height: calc(100% - 60%);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
 }
 .nav-menu-item{
     font-size: 18px;
@@ -110,7 +114,7 @@ body{
         display: block;
         color: #000;
     }
-    .nav-menu-visible{
+    .nav-menu_visible{
         left: 0;
     }
 }

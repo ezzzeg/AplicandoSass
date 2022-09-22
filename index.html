@@ -7,7 +7,7 @@
     <title>Inicio</title>
     <meta name="description" content="Salón de belleza especializado en Cordoba Capital">
     <meta name="keywords" content="salon belleza cosmetologia pestañas cejas uñas dermatologia estetica">
-    <link rel="stylesheet" href="./sass/main.css">
+    <link rel="stylesheet" href="./style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Itim&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://kit.fontawesome.com/f01e87e3ed.js" crossorigin="anonymous"></script>
     <script defer src="./js/index.js"></script>
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
 </head>
 <body>
     <!-- HEADER -->
@@ -42,16 +42,16 @@
         </nav>
     </header>
 
-    <div class="foto-top">
-        <img src="./assents/index/foto cabecera.webp" alt="Foto de cabecera">
+    <div class="foto-top" data-aos="fade-up">
+        <img src="./assents/index/1917104.jpg" alt="Foto de cabecera">
     </div>
 
-    <div class="subtitulo">
+    <div class="subtitulo" data-aos="fade-up">
         <h2>Salón de belleza</h2>
     </div>
 
     <div class="tarjetas">
-        <div class="tarjeta1">
+        <div class="tarjeta1" data-aos="fade-up">
             <figure>
                 <img src="./assents/index/uñas.jpg" alt="Foto Uñas">
             </figure>
@@ -61,7 +61,7 @@
                 <a href="./pages/book.html">Book</a>
             </div>
         </div>
-        <div class="tarjeta1">
+        <div class="tarjeta1" data-aos="fade-up">
             <figure>
                 <img src="./assents/index/cejas.jpg" alt="Foto Cejas">
             </figure>
@@ -71,7 +71,7 @@
                 <a href="./pages/book.html">Book</a>
             </div>
         </div>
-        <div class="tarjeta1">
+        <div class="tarjeta1" data-aos="fade-up">
             <figure>
                 <img src="./assents/index/pestañas.webp" alt="Foto Pestañas">
             </figure>
@@ -81,7 +81,7 @@
                 <a href="./pages/book.html">Book</a>
             </div>
         </div>
-        <div class="tarjeta1">
+        <div class="tarjeta1" data-aos="fade-up">
             <figure>
                 <img src="./assents/index/cosme.webp" alt="Foto Cosmetologia">
             </figure>
@@ -96,5 +96,10 @@
     <div class="pie">
         <p>Bloomer 2022 ©</p>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
